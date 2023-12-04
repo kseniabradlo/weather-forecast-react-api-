@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main::before{
+    content:'';
+    background: url("./images/stock-photo-beautiful-skyline-of-chicago-illinois.jpeg")no-repeat center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: -1;
 }
+
+.inp-field{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 40px;
+}
+
+.inp-field input{
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 1px solid grey;
+    background: rgba(255,255,255,0.5);
+    color: #8f8f8f;
+}
+
+.response-div{
+    margin-top: 10vh;
+    text-align: center;
+    color: #327194;
+    background: rgba(255,255,255,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.city{
+    text-align: center;
+    font-size: 3rem;
+    color: #327194;
+    margin-bottom: 10px;
+}
+
+.temp{
+    max-resolution: 5px;
+    font-size: 3rem;
+}
+
+.feels-like{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.feels-like p{
+    margin-right: 10px;
+}
+
+
+
+
