@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather-forecast-react-api-/static/css/main.d74de8f4.css",
+    "main.js": "/weather-forecast-react-api-/static/js/main.962556ef.js",
+    "static/media/stock-photo-beautiful-skyline-of-chicago-illinois.jpeg": "/weather-forecast-react-api-/static/media/stock-photo-beautiful-skyline-of-chicago-illinois.d52dd0c27fb66b6b5995.jpeg",
+    "index.html": "/weather-forecast-react-api-/index.html",
+    "main.d74de8f4.css.map": "/weather-forecast-react-api-/static/css/main.d74de8f4.css.map",
+    "main.962556ef.js.map": "/weather-forecast-react-api-/static/js/main.962556ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d74de8f4.css",
+    "static/js/main.962556ef.js"
+  ]
+}
